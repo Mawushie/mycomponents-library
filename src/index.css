@@ -175,3 +175,51 @@ background colors for the extra credit
         color: #1c51b9;
     }
 }
+
+.icon {
+    top: -25px;
+}
+
+.slanted-divider {
+    display: inline-block;
+    width: 3px;
+    height: 18px;
+    background: #2e59f3;
+    transform: rotate(10deg);
+}
+
+.testimonial-container {
+    background-color: white;
+}
+
+.testimonial-image {
+    top: -1px;
+    margin-bottom: 48px;
+    object-fit: contain;
+}
+
+.testimonial-image>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.testimonial {
+    background: #2545b8;
+    color: white;
+    overflow: visible;
+    /* margin-top: 110px; */
+}
+
+.testimonial-desktop {
+    background: #2545b8;
+}
+
+.desktop-content {
+    left: 490px;
+    text-wrap: balance;
+}
+
+.testimonial-image-desktop {
+    bottom: -50px;
+    height: auto;
+}

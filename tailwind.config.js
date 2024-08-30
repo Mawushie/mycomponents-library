@@ -6,6 +6,11 @@ export default {
     fontFamily: {
       inter: "Inter",
     },
+    colors: {
+      offwhite: "#F9FAFB",
+      mygray: "#6B7280",
+      transparent: "transparent",
+    },
   },
   plugins: [],
 };
