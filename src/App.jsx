@@ -8,7 +8,7 @@ import TestimonialWithImage from "./components/Testimonials/TestimonialWithImage
 function App() {
   return (
     <>
-      <Badge color="pink" type="pill">
+      {/* <Badge color="pink" type="pill">
         Badge
       </Badge>
       <br></br> <br></br>
@@ -44,9 +44,9 @@ function App() {
       />
       <br></br>
       <br></br>
-      <br></br>
+      <br></br> */}
       <TestimonialWithImage
-        image={`Image.png`}
+        image={`yoga.jpg`}
         name={`Mawushie Honyah`}
         company={`Netflix`}
         position={`Frontend Developer`}

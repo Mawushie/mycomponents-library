@@ -29,6 +29,23 @@ export default function TestimonialWithImage({
       </div>
 
       {/*desktop*/}
+      <div className="hidden testimonial-container px-16 gap-12 xl:flex">
+        <div className="testimonial-image-container">
+          <img src={image} />
+        </div>
+
+        <div className="content">
+          <BiSolidQuoteAltLeft
+            style={{ width: 48, height: 48, opacity: 0.5 }}
+          />
+
+          <p className="mb-8 font-medium text-2xl mt-6">{children}</p>
+          <p className="font-medium text-base">{name}</p>
+          <p className="font-medium text-base">
+            {company}, {position}
+          </p>
+        </div>
+      </div>
     </>
   );
 }

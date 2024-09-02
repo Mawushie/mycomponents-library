@@ -210,16 +210,33 @@ background colors for the extra credit
     /* margin-top: 110px; */
 }
 
-.testimonial-desktop {
-    background: #2545b8;
-}
 
-.desktop-content {
+/* .desktop-content {
     left: 490px;
     text-wrap: balance;
+} */
+
+.testimonial-container {
+    background: #2545b8;
+    height: 400px;
+    position: relative;
+    color: white;
 }
 
-.testimonial-image-desktop {
-    bottom: -50px;
-    height: auto;
+.testimonial-image-container {
+    position: relative;
+    top: -32px;
+    width: 384px;
+    height: 464px;
+}
+
+.testimonial-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 800px;
+    padding: 80px 0px;
 }
