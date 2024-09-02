@@ -36,7 +36,6 @@ export default function TestimonialWithImage({
 
         <div className="content flex flex-col justify-between">
           <BiSolidQuoteAltLeft style={{ opacity: 0.5 }} />
-
           <p className="font-medium text-2xl my-6">{children}</p>
           <p className="font-medium text-base">{name}</p>
           <p className="font-medium text-base">
