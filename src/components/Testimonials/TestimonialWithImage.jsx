@@ -10,7 +10,7 @@ export default function TestimonialWithImage({
 }) {
   return (
     <>
-      <div className="testimonial-container flex flex-col bg-sl max-w-96 border-0 font-inter relative  shadow xl:hidden">
+      <div className="flex flex-col bg-sl max-w-96 border-0 font-inter relative  shadow xl:hidden">
         <div className="max-w-80 h-52 border border-transparent  self-center  absolute testimonial-image">
           <img src={image} className="rounded-lg" />
         </div>

@@ -188,10 +188,6 @@ background colors for the extra credit
     transform: rotate(10deg);
 }
 
-.testimonial-container {
-    background-color: white;
-}
-
 .testimonial-image {
     top: -1px;
     margin-bottom: 48px;
@@ -207,14 +203,7 @@ background colors for the extra credit
     background: #2545b8;
     color: white;
     overflow: visible;
-    /* margin-top: 110px; */
 }
-
-
-/* .desktop-content {
-    left: 490px;
-    text-wrap: balance;
-} */
 
 .testimonial-container {
     background: #2545b8;

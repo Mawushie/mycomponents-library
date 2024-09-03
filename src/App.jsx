@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Card from "./components/Card/Card";
 import TestimonialWithoutImage from "./components/Testimonials/TestimonialWithoutImage";
 import TestimonialWithImage from "./components/Testimonials/TestimonialWithImage";
+import ToolTip from "./components/ToolTip/ToolTip";
 
 function App() {
   return (
@@ -45,17 +46,31 @@ function App() {
       <br></br>
       <br></br>
       <br></br> */}
-      <TestimonialWithImage
+      {/* <TestimonialWithImage
         image={`yoga.jpg`}
         name={`Mawushie Honyah`}
         company={`Netflix`}
         position={`Frontend Developer`}
       >
-        I really enjoyed the services provided. Customer service was top notch.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita
-        voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed
-        rerum et corporis.
-      </TestimonialWithImage>
+        Yoga challenges and calms me at the same time and I am beginning to
+        really fall in love with it.
+      </TestimonialWithImage> */}
+
+      <div>
+        <ToolTip
+          color="green"
+          theme="bold"
+          title="Archive notes"
+          details="Something you should know"
+        />
+        <br></br>
+        <ToolTip
+          color="green"
+          theme="light"
+          title="Archive notes"
+          details="Something you should know"
+        />
+      </div>
     </>
   );
 }
