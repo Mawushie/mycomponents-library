@@ -58,14 +58,14 @@ function App() {
 
       <div>
         <ToolTip
-          color="green"
+          color="pink"
           theme="bold"
           title="Archive notes"
           details="Something you should know"
         />
         <br></br>
         <ToolTip
-          color="green"
+          color="blue"
           theme="light"
           title="Archive notes"
           details="Something you should know"

@@ -229,3 +229,14 @@ background colors for the extra credit
     width: 800px;
     padding: 80px 0px;
 }
+
+
+/* .triangle-down {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #555;
+    left: 50px;
+} */

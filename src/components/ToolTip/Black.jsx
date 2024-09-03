@@ -3,11 +3,12 @@ import { TbInbox } from "react-icons/tb";
 import { MdOutlineClose } from "react-icons/md";
 
 export default function Black({ theme, info }) {
-  let background = theme === "light" ? "#FFFFFF" : "#262626";
+  let background = theme === "light" ? "#f8f8f8" : "#262626";
   let iconColor = theme === "light" ? "#6B7280" : "#C7C7C7";
   let titleColor = theme === "light" ? "#111827" : "#FFFFFF";
   let detailsColor = theme === "light" ? "#6B7280" : "#C7C7C7";
   let dismissBtn = theme === "light" ? "#6B7280" : "#C7C7C7";
+
   return (
     <>
       <div
@@ -30,6 +31,26 @@ export default function Black({ theme, info }) {
 
         <MdOutlineClose style={{ width: 20, height: 20, color: dismissBtn }} />
       </div>
+      <div
+        className="triangle-down "
+        style={{
+          position: "relative",
+          borderLeft: "15px solid transparent",
+          borderRight: "15px solid transparent",
+          borderTop: `15px solid ${background}`,
+          width: 0,
+          height: 0,
+          left: 50,
+        }}
+      ></div>
     </>
   );
 }
+
+//  position: relative;
+//     width: 0;
+//     height: 0;
+//     border-left: 15px solid transparent;
+//     border-right: 15px solid transparent;
+//     border-top: 15px solid #555;
+//     left: 50px;

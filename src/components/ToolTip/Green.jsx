@@ -30,6 +30,18 @@ export default function Green({ theme, info }) {
 
         <MdOutlineClose style={{ width: 20, height: 20, color: dismissBtn }} />
       </div>
+      <div
+        className="triangle-down "
+        style={{
+          position: "relative",
+          borderLeft: "15px solid transparent",
+          borderRight: "15px solid transparent",
+          borderTop: `15px solid ${background}`,
+          width: 0,
+          height: 0,
+          left: 50,
+        }}
+      ></div>
     </>
   );
 }
