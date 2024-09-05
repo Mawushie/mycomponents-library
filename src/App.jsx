@@ -5,6 +5,7 @@ import Card from "./components/Card/Card";
 import TestimonialWithoutImage from "./components/Testimonials/TestimonialWithoutImage";
 import TestimonialWithImage from "./components/Testimonials/TestimonialWithImage";
 import ToolTip from "./components/ToolTip/ToolTip";
+import Toast from "./components/Toasts/Toast";
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
         really fall in love with it.
       </TestimonialWithImage> */}
 
-      <div>
+      {/* <div>
         <ToolTip
           color="pink"
           theme="bold"
@@ -70,7 +71,19 @@ function App() {
           title="Archive notes"
           details="Something you should know"
         />
-      </div>
+      </div> */}
+
+      {/* <Toast
+        status="success"
+        title="Success"
+        details="Your work has been saved."
+      /> */}
+
+      <Toast
+        status="error"
+        title="Error"
+        details="Please re-save your work again"
+      />
     </>
   );
 }
